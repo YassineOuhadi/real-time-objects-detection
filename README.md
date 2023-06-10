@@ -1,2 +1,3 @@
 # Real-Time-Object-Detection
-Deep-learning based techniques for object recognition and tracking in aerial images/videos.
+
+Utilizing Deep Learning for Object Recognition and Tracking in Aerial Images/Videos: A YOLO-DeepSort Approach integrated with OpenCV, Flask API, and React interface.
