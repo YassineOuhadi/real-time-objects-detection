@@ -4,6 +4,8 @@ Utilizing Deep Learning for Object Recognition and Tracking in Aerial Images/Vid
 
 ## Get started with Flask API
 
+To run this API in `http://localhost:5000/`, follow these steps:
+
 1. Clone the repository to your local machine:
 
    `git clone https://github.com/YassineOuhadi/Real-Time-Object-Detection.git`
@@ -29,8 +31,6 @@ Utilizing Deep Learning for Object Recognition and Tracking in Aerial Images/Vid
    
 ## Get started with React Interface
 
-To run this application in `http://localhost:3000/`, follow these steps:
-
 1. Install dependencies:
 
    `npm install`
@@ -43,3 +43,9 @@ To run this application in `http://localhost:3000/`, follow these steps:
 3. Run the application:
 
    `npm run dev`
+   
+4. Access the application in a web browser at `http://localhost:3000/`.
+
+## Overview
+
+## License
