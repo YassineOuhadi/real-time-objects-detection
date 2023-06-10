@@ -1,0 +1,285 @@
+@import url("https://cdn.syncfusion.com/ej2/bootstrap5.css");
+@import url("https://fonts.googleapis.com/css?family=Overpass");
+
+* {
+	box-sizing: border-box;
+	font-family: "Overpass", sans-serif;
+}
+
+body {
+	display: flex;
+	align-items: center; /* Vertically center the content */
+	justify-content: center; /* Horizontally center the content */
+	margin: 0;
+	min-height: 100vh; /* Adjust the minimum height to fit the entire viewport */
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+  }
+
+.row{
+	min-height: 400px;
+}
+
+.row.list {
+	min-height: 250px;
+	margin-right: 0px;
+    margin-left: 0px;
+}
+
+.row.list .spinner-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 70%;
+min-height: auto;
+background-color: white;
+  }
+
+.row.list img,.row.list video{
+	min-height: 200px;object-fit: cover;max-height: 200px;
+	/*float: inline-end;*/
+}
+
+.row.list label{
+	width: 100%;
+	text-align: center;
+	padding: 10px 10px 0px 10px;
+}
+
+.row.list .uploaded, .row.list .detected{
+	outline: groove;
+    outline-color: #a29a9a40;
+    outline-width: thin;
+	cursor: pointer;
+}
+
+.row.list .uploaded:hover, .row.list .detected:hover{
+	outline-color: #22222278;
+}
+
+.row.list .uploaded.active, .row.list .detected.active{
+    outline-color: #22222278;
+}
+
+
+.col-md-4, .col-md-8 {
+	
+}
+
+.file-preview img, .file-preview video {
+    max-height: 400px;
+	width: 100%;
+height: 100%;
+    object-fit: contain;
+}
+
+h4.text-center{
+    font-size: larger;
+}
+
+p {
+    font-size: small;
+}
+
+label {
+	font-size: smaller;
+	padding-left: 2px;
+}
+
+.button-31 {
+	background-color: #222;
+	border-radius: 4px;
+	border-style: none;
+	box-sizing: border-box;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+	font-size: 12px;
+	font-weight: 700;
+	line-height: 1.5;
+	margin: 0;
+	max-width: none;
+	min-height: none;
+	min-width: 10px;
+	outline: none;
+	overflow: hidden;
+	padding: 9px 20px 8px;
+	position: relative;
+	text-align: center;
+	text-transform: none;
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+	width: 100%;
+  }
+
+  .button-31.disabled,
+  .button-31:hover,
+  .button-31:focus{
+	opacity: .85;
+  }
+  
+  .e-multi-select-wrapper .e-chips {
+	background-color: #222;
+  }
+
+  .button-4 {
+	appearance: none;
+	background-color: #FAFBFC;
+	border: 1px solid rgba(27, 31, 35, 0.15);
+	border-radius: 6px;
+	box-shadow: rgba(27, 31, 35, 0.04) 0 1px 0, rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+	box-sizing: border-box;
+	color: #24292E;
+	cursor: pointer;
+	display: inline-block;
+	font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
+	font-size: 12px;
+	font-weight: 500;
+	line-height: 20px;
+	list-style: none;
+	padding: 6px 16px;
+	position: relative;
+	transition: background-color 0.2s cubic-bezier(0.3, 0, 0.5, 1);
+	user-select: none;
+	-webkit-user-select: none;
+	touch-action: manipulation;
+	vertical-align: middle;
+	white-space: nowrap;
+	word-wrap: break-word;
+  }
+  
+  
+  .button-4:hover {
+	background-color: #24292E;
+	text-decoration: none;
+	transition-duration: 0.1s;
+  }
+  
+  .button-4:disabled {
+	background-color: #FAFBFC;
+	border-color: rgba(27, 31, 35, 0.15);
+	color: #959DA5;
+	cursor: default;
+  }
+
+.alert-info {
+	font-size: smaller;
+}
+
+.bg-success {
+	background-color: #222 !important;
+  }
+
+code {
+	font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+  
+
+.file-preview {
+	transition: opacity 0.5s ease-in-out;
+  }
+  
+  #fade-out {
+	opacity: 0;
+  }
+  
+
+  
+@media screen and (max-width: 567px) {
+	.tags-input {
+		width: calc(100vw - 32px);
+	}
+}
+
+
+
+
+/* CSS */
+.button-81 {
+  background-color: #fff;
+  border: 0 solid #e2e8f0;
+  border-radius: 1.5rem;
+  box-sizing: border-box;
+  color: #0d172a;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Basier circle",-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1;
+  padding: 1rem 1.6rem;
+  text-align: center;
+  text-decoration: none #0d172a solid;
+  text-decoration-thickness: auto;
+  transition: all .1s cubic-bezier(.4, 0, .2, 1);
+  box-shadow: 0px 1px 2px rgba(166, 175, 195, 0.25);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-81:hover {
+  background-color: #1e293b;
+  color: #fff;
+}
+
+@media (min-width: 768px) {
+  .button-81 {
+    font-size: 1.125rem;
+    padding: 1rem 2rem;
+  }
+}
+
+
+.spinner-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100%;
+	min-height: 200px;
+	background-color: #222;
+  }
+  
+  .spinner {
+	width: 40px;
+	height: 40px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: 4px solid #f3f3f3;
+	border-top: 4px solid #222;
+	border-radius: 50%;
+	animation: spin 1s linear infinite;
+  }
+  
+  @keyframes spin {
+	0% {
+	  transform: rotate(0deg);
+	}
+	100% {
+	  transform: rotate(360deg);
+	}
+  }
+
+  .e-multi-select-wrapper .e-chips > .e-chipcontent {
+	font-size: 12px;
+  }
+
+  .e-multi-select-wrapper .e-delim-values {
+	font-size: 12px;
+  }
+
+  .e-multi-select-wrapper input[type="text"] {
+	font-size: 12px;	
+  }
+
+
+  .alert-info {
+	color: #222;
+	background-color: #4B4C4F0A;
+	border-color: #DCDCDC;
+  }
