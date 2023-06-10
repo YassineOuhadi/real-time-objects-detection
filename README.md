@@ -8,38 +8,26 @@ Utilizing Deep Learning for Object Recognition and Tracking in Aerial Images/Vid
 
    `git clone https://github.com/YassineOuhadi/Real-Time-Object-Detection.git`
    
-1. Navigate to the root directory of the application:
+2. Navigate to the root directory of the application:
 
    `cd flask-api`
    
-1. Install required packages:
+3. Install required packages:
 
    `pip install -U pip virtualenv`
    `pip install flask`
    `pip install ultralytics`
    `pip install opencv-python`
    
-1. Create a virtual environment:
+4. Create a virtual environment:
 
    `python -m venv venv`
    
-1. Activate the virtual environment:
+5. Activate the virtual environment:
 
    `source venv/bin/activate`
    
-1. Run the Flask application:
-
-   `python -m flask --app ./app.py run`
-   
-1. Clone the repository to your local machine:
-
-   `pip install ultralytics
-   
-1. Clone the repository to your local machine:
-
-   `pip install opencv-python`
-   
-1. Clone the repository to your local machine:
+6. Run the Flask application:
 
    `python -m flask --app ./app.py run`
    
@@ -51,16 +39,16 @@ To run this application in `http://localhost:3000/`, follow these steps:
 
    `cd react-app`
 
-1. Install dependencies:
+2. Install dependencies:
 
    `npm install`
    
-1. Install client dependencies:
+3. Install client dependencies:
 
    `cd client`
    `npm install`
    
-1. Run the application:
+4. Run the application:
 
    `cd ..`
    `npm run dev`
