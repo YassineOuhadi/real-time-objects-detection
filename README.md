@@ -48,6 +48,4 @@ To run this API in `http://localhost:5000/`, follow these steps:
 
 ## Overview
 
-![4](https://github.com/YassineOuhadi/Real-Time-Object-Detection/assets/109771302/87e47f20-9050-4ff5-8968-13105d08f75b)
-
 ## License
