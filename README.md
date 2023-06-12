@@ -1,6 +1,6 @@
 # Real-Time-Object-Detection-System
 
-Utilizing Deep Learning for Object Recognition and Tracking in Aerial Images/Videos: A YOLO-DeepSort Approach integrated with OpenCV, Flask API, and React interface.
+Utilizing Deep Learning for Object Recognition and Tracking in Aerial Images/Videos: A YOLO-DeepSort Approach integrated with OpenCV, Flask API & React interface.
 
 ## Get started with Flask API
 
